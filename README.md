@@ -1,225 +1,212 @@
 <div align="center">
-<img src="assets/banner.svg" width="100%" alt="Kavish Gupta animated banner"/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=260&section=header&text=Kavish%20Gupta&fontSize=70&fontColor=00F5FF&animation=fadeIn&fontAlignY=38&desc=AI%20%2F%20LLM%20Engineer%20%C2%B7%20RAG%20Systems%20Builder%20%C2%B7%20CS%20@%20Thapar&descAlignY=58&descAlign=50" width="100%"/>
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=26&duration=3000&pause=900&color=00F5FFFF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=%3E+building+RAG+pipelines+that+actually+cite+their+sources;%3E+turning+LLMs+into+production-grade+systems;%3E+700%2B+LeetCode+%7C+Amazon+ML+Summer+School+%2725;%3E+currently+shipping%3A+CareerLens+%26+Silent+Attrition+Detector" alt="Typing SVG" />
+</a>
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=00F5FF&center=true&vCenter=true&width=750&lines=retrieving+context...+%E2%9C%94;augmenting+with+project+history...+%E2%9C%94;generating+profile+response...+%E2%9C%94;%3E+run+%27scroll+down%27+to+see+full+output)](https://git.io/typing-svg)
-
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=Kavish1504&style=flat-square&color=00F5FF&label=views)
-![GitHub Followers](https://img.shields.io/github/followers/Kavish1504?style=flat-square&color=B026FF&label=followers)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-00F5FF?style=flat-square&logo=linkedin&logoColor=black)](https://linkedin.com/in/kavish-gupta-3a072435a)
-[![LeetCode](https://img.shields.io/badge/LeetCode-700%2B_solved-B026FF?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/KavishSam_10)
-[![Email](https://img.shields.io/badge/Email-say_hi-FF00E5?style=flat-square&logo=gmail&logoColor=white)](mailto:kavishgupta21177@gmail.com)
+![Profile Views](https://komarev.com/ghpvc/?username=Kavish1504&color=00F5FF&style=flat-square&label=PROFILE+VIEWS)
+[![GitHub followers](https://img.shields.io/github/followers/Kavish1504?label=FOLLOW&style=flat-square&color=00F5FF&labelColor=0f0c29)](https://github.com/Kavish1504)
+![LeetCode](https://img.shields.io/badge/LeetCode-700%2B%20Solved-00F5FF?style=flat-square&labelColor=0f0c29&logo=leetcode)
 
 </div>
 
-<br/>
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
-> This README is structured like the RAG pipelines I build. Every section is a stage: **retrieve → augment → generate.** Query me below. 👇
+## 👨‍💻 `whoami`
 
-<br/>
-
-## 🔎 `RETRIEVAL` — pulling context on who I am
-
-```python
->>> retriever.get_relevant_context(query="who is kavish gupta?", top_k=3)
-
-[
-  Document(
-    source="Thapar Institute of Engineering and Technology",
-    content="B.E. Computer Science and Engineering · GPA 9.7/10 · Aug 2023 – Present",
-    score=0.98
-  ),
-  Document(
-    source="specialization",
-    content="Data Scientist & LLM Engineer — RAG pipelines, LLM evaluation, vector search",
-    score=0.96
-  ),
-  Document(
-    source="track_record",
-    content="700+ LeetCode problems · Amazon ML Summer School 2025 · Flipkart GRID 6.0 Semifinalist",
-    score=0.93
-  )
-]
+```yaml
+name: Kavish Gupta
+role: AI & LLM Engineer | CS Undergrad @ Thapar Institute of Engineering & Technology
+gpa: 9.7 / 10
+focus: [RAG Systems, LLM Evaluation, Vector Search, Applied ML]
+philosophy: "Ship systems that cite their sources and explain their reasoning."
+fun_fact: "Went from editing a school magazine to editing embeddings in a vector store."
+currently_building: "AI agents that read codebases and resumes better than most humans do"
 ```
 
-I design and ship AI systems end-to-end — hybrid retrieval pipelines, LLM-evaluated RAG assistants, and behavioral ML models that catch problems before they surface. I care less about a model looking clever in a notebook, and more about whether it's **evaluable, explainable, and actually deployed.**
+I'm a Computer Science undergrad who builds **retrieval-augmented, evaluation-driven AI systems** — not toy demos, production-shaped pipelines with citations, fallbacks, and dashboards. When I'm not fine-tuning a retrieval pipeline, I'm probably solving a graph problem on LeetCode or organizing a placement drive for 100+ classmates.
 
-<br/>
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
-## 🧩 `CONTEXT WINDOW` — what's loaded into memory
+## 🧠 Tech Stack
 
-<table>
-<tr><td valign="top" width="50%">
+<div align="center">
 
-**Core Stack**
-```
-languages    │ Python · C++ · SQL
-llm_stack    │ LangChain · HuggingFace · ChromaDB
-eval         │ RAGAS (faithfulness, relevancy, precision)
-serving      │ FastAPI · Streamlit · Plotly Dash
-dl           │ PyTorch (LSTM Autoencoders)
-```
+**Languages**
 
-</td><td valign="top" width="50%">
+![Python](https://img.shields.io/badge/Python-0f0c29?style=for-the-badge&logo=python&logoColor=00F5FF)
+![C++](https://img.shields.io/badge/C%2B%2B-0f0c29?style=for-the-badge&logo=cplusplus&logoColor=00F5FF)
+![SQL](https://img.shields.io/badge/SQL-0f0c29?style=for-the-badge&logo=postgresql&logoColor=00F5FF)
 
-**Supporting Stack**
-```
-data         │ MongoDB · pandas-style EDA
-viz          │ Tableau · Matplotlib · Seaborn
-web          │ HTML · CSS · Tailwind
-graph        │ NetworkX
-tools        │ Git · GitHub · Jupyter · VS Code
-```
+**AI / LLM Engineering**
 
-</td></tr>
-</table>
+![LangChain](https://img.shields.io/badge/LangChain-0f0c29?style=for-the-badge&logo=langchain&logoColor=00F5FF)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-0f0c29?style=for-the-badge&logo=huggingface&logoColor=00F5FF)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-0f0c29?style=for-the-badge&logo=databricks&logoColor=00F5FF)
+![PyTorch](https://img.shields.io/badge/PyTorch-0f0c29?style=for-the-badge&logo=pytorch&logoColor=00F5FF)
+![RAGAS](https://img.shields.io/badge/RAGAS%20Eval-0f0c29?style=for-the-badge&logo=checkmarx&logoColor=00F5FF)
 
-**Retrieval confidence by domain** *(how deep I can go if you ask)*
+**Frameworks & Web**
 
-```
-RAG & Hybrid Retrieval     ████████████████░░░░  82%
-LLM Evaluation (RAGAS)     ██████████████░░░░░░  74%
-LangChain Orchestration    ████████████████░░░░  80%
-Deep Learning (PyTorch)    █████████████░░░░░░░  68%
-Classical ML / EDA         ██████████████░░░░░░  75%
-Data Structures & Algo     █████████████████░░░  85%
-```
+![FastAPI](https://img.shields.io/badge/FastAPI-0f0c29?style=for-the-badge&logo=fastapi&logoColor=00F5FF)
+![Streamlit](https://img.shields.io/badge/Streamlit-0f0c29?style=for-the-badge&logo=streamlit&logoColor=00F5FF)
+![Plotly Dash](https://img.shields.io/badge/Plotly%20Dash-0f0c29?style=for-the-badge&logo=plotly&logoColor=00F5FF)
+![MongoDB](https://img.shields.io/badge/MongoDB-0f0c29?style=for-the-badge&logo=mongodb&logoColor=00F5FF)
+![Tailwind](https://img.shields.io/badge/TailwindCSS-0f0c29?style=for-the-badge&logo=tailwindcss&logoColor=00F5FF)
 
-<br/>
+**Data & Analytics**
 
-## ⚙️ `AUGMENTATION` — projects that shaped the model
+![Pandas](https://img.shields.io/badge/Pandas-0f0c29?style=for-the-badge&logo=pandas&logoColor=00F5FF)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-0f0c29?style=for-the-badge&logo=plotly&logoColor=00F5FF)
+![Seaborn](https://img.shields.io/badge/Seaborn-0f0c29?style=for-the-badge&logo=python&logoColor=00F5FF)
+![Tableau](https://img.shields.io/badge/Tableau-0f0c29?style=for-the-badge&logo=tableau&logoColor=00F5FF)
 
-<table>
+**Tools & Platforms**
+
+![Git](https://img.shields.io/badge/Git-0f0c29?style=for-the-badge&logo=git&logoColor=00F5FF)
+![GitHub](https://img.shields.io/badge/GitHub-0f0c29?style=for-the-badge&logo=github&logoColor=00F5FF)
+![VSCode](https://img.shields.io/badge/VS%20Code-0f0c29?style=for-the-badge&logo=visualstudiocode&logoColor=00F5FF)
+![Jupyter](https://img.shields.io/badge/Jupyter-0f0c29?style=for-the-badge&logo=jupyter&logoColor=00F5FF)
+
+</div>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+
+## 🚀 Featured Projects
+
+<table width="100%">
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-**🔍 Codebase Q&A**
-<br/><sub>RAG-based AI</sub>
+### 🔍 Codebase Q&A System
+**RAG-based AI for natural-language querying over GitHub repos**
 
-Natural-language queries over GitHub repos, with **file- and line-level citations**.
+![Status](https://img.shields.io/badge/status-shipped-00F5FF?style=flat-square&labelColor=0f0c29)
 
-- AST-aware chunking
-- Hybrid semantic + BM25 retrieval
-- RAGAS-evaluated, multi-turn memory
+- AST-aware chunking + hybrid retrieval (semantic + BM25)
+- File & line-level citations, multi-turn memory via LangChain
+- Evaluated with RAGAS · deployed on Streamlit + FastAPI
 
-`LangChain` `ChromaDB` `FastAPI`
+`LangChain` `ChromaDB` `HuggingFace` `RAGAS`
 
-[**→ open repo**](https://github.com/Kavish1504/CodeBase-Q-A)
-
-</td>
-<td width="33%" valign="top">
-
-**📊 CareerLens**
-<br/><sub>AI Career Intelligence</sub>
-
-Extracts career signals from resumes, detects **plateaus**, benchmarks pay.
-
-- spaCy NER + regex parsing
-- Live job-market skill scoring (Adzuna)
-- Groq LLaMA 3.3 70B narrative + 90-day plan
-
-`LangChain` `Groq` `Plotly Dash`
-
-[**→ open repo**](https://github.com/Kavish1504/CareerLens)
+**[→ View Repo](#)**
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-**🕵️ Silent Attrition Detector**
-<br/><sub>Disengagement Detection</sub>
+### 📊 CareerLens
+**AI Career Intelligence Platform**
 
-Flags employee disengagement **4–6 weeks early**, before resignation.
+![Status](https://img.shields.io/badge/status-shipped-00F5FF?style=flat-square&labelColor=0f0c29)
 
-- 5 PyTorch LSTM Autoencoders
-- NetworkX collaboration-drift analysis
-- Manager-facing severity dashboard
+- spaCy NER + regex parsing to extract structured career data
+- Live skill-relevance scoring via Adzuna API w/ offline fallback
+- Groq-hosted LLaMA 3.3 70B → plain-language 90-day action plan
+
+`LangChain` `spaCy` `Groq` `Plotly Dash`
+
+**[→ View Repo](#)**
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🕵️ Silent Attrition Detector
+**Employee disengagement detection, 4–6 weeks early**
+
+![Status](https://img.shields.io/badge/status-shipped-00F5FF?style=flat-square&labelColor=0f0c29)
+
+- 5 PyTorch LSTM Autoencoders across 25 behavioral signals
+- NetworkX collaboration-graph drift analysis
+- Rule-based flagging + 3-page manager-facing dashboard
 
 `PyTorch` `NetworkX` `Plotly Dash`
 
-[**→ open repo**](https://github.com/Kavish1504/Silent-Attrition-Detector)
+**[→ View Repo](#)**
+
+</td>
+<td width="50%" valign="top">
+
+### 🏆 Achievements Snapshot
+
+- 🧩 **700+** problems solved on LeetCode
+- 🎓 Selected — **Amazon ML Summer School 2025**
+- 🥈 Semifinalist — **Flipkart GRID 6.0**
+- 📜 Generative AI Certified — **IBM (Coursera)**
+
+**Currently:** Training & Placement Rep. @ TIET, coordinating drives for 100+ students.
 
 </td>
 </tr>
 </table>
 
-<br/>
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
-## 🧬 `PIPELINE HISTORY` — experience log
+<details>
+<summary><b>🛰️ My Dev Universe — click to expand</b></summary>
+<br>
 
-```diff
-+ [2025 – Present]  Training & Placement Representative · Thapar Institute
-    communicated drive schedules & eligibility to 100+ students
-    coordinated pre-placement talks and on-campus recruitment logistics
-
-+ [2022 – 2023]     Head of Media and Magazine · Budha Dal Public School
-    led a 15+ member student media team across major school events
-    owned the editorial pipeline for the annual school magazine, end to end
+```text
+🎓 Education     : B.E. CSE, Thapar Institute of Engineering & Technology (GPA 9.7)
+🧪 Currently     : Building agentic RAG + evaluation pipelines
+📚 Learning      : Advanced agentic workflows, distributed vector search
+🎯 2026 Goal     : Ship an LLM system that survives real production traffic
+🎮 Off-duty      : LeetCode grinding + dashboard tinkering
+🗣️ Ask me about  : RAG architecture, LLM evaluation, embeddings, resume parsing pipelines
 ```
 
-<br/>
+</details>
 
-## ✨ `GENERATION` — output & recognition
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
-<div align="center">
-
-| 🏅 | Signal |
-|:--:|:-------|
-| 🧩 | **700+** problems solved on LeetCode (DSA) |
-| 🤖 | Selected — **Amazon ML Summer School 2025** |
-| 🏆 | Semifinalist — **Flipkart GRID 6.0** |
-| 📜 | Generative AI — **IBM (Coursera)** |
-| 🎓 | **9.7 GPA** · B.E. CSE, Thapar Institute |
-
-</div>
-
-<br/>
-
-## 📡 `SYSTEM DIAGNOSTICS` — live from GitHub
+## 📈 GitHub Analytics Dashboard
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kavish1504&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0118&title_color=00F5FF&text_color=C4B5FD&langs_count=8" height="165"/>
-<img src="https://github-profile-trophy.vercel.app/?username=Kavish1504&theme=algolia&no-frame=true&no-bg=true&margin-w=6&row=2&column=4" height="165"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Kavish1504&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=00F5FF&icon_color=00F5FF&text_color=c9d1d9&ring_color=00F5FF"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kavish1504&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=00F5FF&text_color=c9d1d9"/>
 </div>
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kavish1504&bg_color=0a0118&color=00F5FF&line=B026FF&point=C4B5FD&area=true&hide_border=true" width="100%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Kavish1504&theme=tokyonight&hide_border=true&background=0f0c29&ring=00F5FF&fire=00F5FF&currStreakLabel=00F5FF"/>
 </div>
-
-### 🐍 live contribution snake *(animated, updates daily)*
 
 <div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kavish1504/Kavish1504/output/github-contribution-grid-snake-dark.svg">
-  <img alt="contribution snake animation" src="https://raw.githubusercontent.com/Kavish1504/Kavish1504/output/github-contribution-grid-snake.svg">
-</picture>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kavish1504&theme=tokyo-night&hide_border=true&bg_color=0f0c29&color=00F5FF&line=00F5FF&point=ffffff"/>
 </div>
 
-> ⚙️ **One-time setup needed for the snake to appear:** add [`Platane/snk`](https://github.com/Platane/snk) as a GitHub Action in this repo (`Kavish1504/Kavish1504`) — it eats your contribution graph and regenerates this SVG every day automatically. Takes ~2 minutes; I can write the workflow file for you if you want.
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
-<br/>
+## 🎯 Metrics & Milestones
 
-## 📮 `ENDPOINT` — reach me
+| Metric | Detail |
+|---|---|
+| 🎓 GPA | 9.7 / 10 — Thapar Institute of Engineering and Technology |
+| 🧩 DSA | 700+ problems solved on LeetCode |
+| 🤖 ML | Amazon ML Summer School 2025 Selectee |
+| 🏁 Competitive | Semifinalist, Flipkart GRID 6.0 |
+| 📜 Certified | Generative AI (IBM), Amazon ML, Flipkart GRID |
+| 🚀 Projects | 3 production-shaped AI systems (RAG, career intelligence, attrition detection) |
 
-```bash
-curl -X POST https://kavish.dev/connect \
-  -H "Content-Type: application/json" \
-  -d '{
-        "email": "kavishgupta21177@gmail.com",
-        "linkedin": "linkedin.com/in/kavish-gupta-3a072435a",
-        "github": "github.com/Kavish1504",
-        "leetcode": "leetcode.com/KavishSam_10"
-      }'
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
-# 200 OK — response usually within a day
-```
+## 📡 Connect With Me
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0b2e,50:140829,100:0a0118&height=100&section=footer&animation=fadeIn" width="100%"/>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0f0c29?style=for-the-badge&logo=linkedin&logoColor=00F5FF)](https://linkedin.com/)
+[![Gmail](https://img.shields.io/badge/Email-0f0c29?style=for-the-badge&logo=gmail&logoColor=00F5FF)](mailto:kavishgupta21177@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-0f0c29?style=for-the-badge&logo=github&logoColor=00F5FF)](https://github.com/Kavish1504)
+[![LeetCode](https://img.shields.io/badge/LeetCode-0f0c29?style=for-the-badge&logo=leetcode&logoColor=00F5FF)](https://leetcode.com/)
 
-<sub>every dataset tells a story — I build the systems that read between the lines.</sub>
+</div>
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer"/>
+
+<div align="center">
+<i>"Every reconstruction error tells a story. Every retrieved chunk has a citation. Every dashboard has a fallback."</i>
 </div>
