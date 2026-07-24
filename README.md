@@ -93,7 +93,7 @@ I'm a Computer Science undergrad who builds **retrieval-augmented, evaluation-dr
 
 `LangChain` `ChromaDB` `HuggingFace` `RAGAS`
 
-**[→ View Repo](#)**
+**[→ View Repo](https://github.com/Kavish1504/CodeBase-Q-A)**
 
 </td>
 <td width="50%" valign="top">
@@ -109,7 +109,7 @@ I'm a Computer Science undergrad who builds **retrieval-augmented, evaluation-dr
 
 `LangChain` `spaCy` `Groq` `Plotly Dash`
 
-**[→ View Repo](#)**
+**[→ View Repo](https://github.com/Kavish1504/CareerLens)**
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ I'm a Computer Science undergrad who builds **retrieval-augmented, evaluation-dr
 
 `PyTorch` `NetworkX` `Plotly Dash`
 
-**[→ View Repo](#)**
+**[→ View Repo](https://github.com/Kavish1504/Silent-Attrition-Detector)**
 
 </td>
 <td width="50%" valign="top">
@@ -198,10 +198,10 @@ I'm a Computer Science undergrad who builds **retrieval-augmented, evaluation-dr
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0f0c29?style=for-the-badge&logo=linkedin&logoColor=00F5FF)](https://linkedin.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0f0c29?style=for-the-badge&logo=linkedin&logoColor=00F5FF)](https://www.linkedin.com/in/kavish-gupta-3a072435a/)
 [![Gmail](https://img.shields.io/badge/Email-0f0c29?style=for-the-badge&logo=gmail&logoColor=00F5FF)](mailto:kavishgupta21177@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-0f0c29?style=for-the-badge&logo=github&logoColor=00F5FF)](https://github.com/Kavish1504)
-[![LeetCode](https://img.shields.io/badge/LeetCode-0f0c29?style=for-the-badge&logo=leetcode&logoColor=00F5FF)](https://leetcode.com/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-0f0c29?style=for-the-badge&logo=leetcode&logoColor=00F5FF)](https://leetcode.com/u/KavishSam_10/)
 
 </div>
 
