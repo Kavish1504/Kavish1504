@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=260&section=header&text=Kavish%20Gupta&fontSize=70&fontColor=00F5FF&animation=fadeIn&fontAlignY=38&desc=AI%20%2F%20LLM%20Engineer%20%C2%B7%20RAG%20Systems%20Builder%20%C2%B7%20CS%20@%20Thapar&descAlignY=58&descAlign=50" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=26&duration=3000&pause=900&color=00F5FFFF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=%3E+Building+RAG+pipelines+that+actually+cite+their+sources;%3E+turning+LLMs+into+production-grade+systems;%3E+700%2B+LeetCode+%7C+Amazon+ML+Summer+School+%2725;%3E+currently+shipping%3A+CareerLens+%26+Silent+Attrition+Detector" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=26&duration=3000&pause=900&color=00F5FFFF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=%3E+Making+RAG+pipelines+that+actually+cite+their+sources;%3E+turning+LLMs+into+production-grade+systems;%3E+700%2B+LeetCode+%7C+Amazon+ML+Summer+School+%2725;%3E+currently+shipping%3A+CareerLens+%26+Silent+Attrition+Detector" alt="Typing SVG" />
 </a>
 
 <br/>
