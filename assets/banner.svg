@@ -1,0 +1,58 @@
+<svg viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0118"/>
+      <stop offset="55%" stop-color="#140829"/>
+      <stop offset="100%" stop-color="#1a0b2e"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00F5FF"/>
+      <stop offset="100%" stop-color="#B026FF"/>
+    </linearGradient>
+    <radialGradient id="node-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00F5FF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#00F5FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+
+  <!-- vector-space node field, evokes embedding space / RAG retrieval -->
+  <g opacity="0.55">
+    <line x1="60" y1="60" x2="180" y2="120" stroke="#8b5cf6" stroke-width="1"/>
+    <line x1="180" y1="120" x2="140" y2="230" stroke="#8b5cf6" stroke-width="1"/>
+    <line x1="140" y1="230" x2="60" y2="270" stroke="#8b5cf6" stroke-width="1"/>
+    <line x1="180" y1="120" x2="300" y2="90" stroke="#00F5FF" stroke-width="1"/>
+    <line x1="1000" y1="55" x2="1120" y2="100" stroke="#8b5cf6" stroke-width="1"/>
+    <line x1="1120" y1="100" x2="1080" y2="220" stroke="#00F5FF" stroke-width="1"/>
+    <line x1="1080" y1="220" x2="1150" y2="270" stroke="#8b5cf6" stroke-width="1"/>
+    <line x1="1000" y1="55" x2="950" y2="150" stroke="#00F5FF" stroke-width="1"/>
+
+    <circle cx="60" cy="60" r="4" fill="#00F5FF"/>
+    <circle cx="180" cy="120" r="5" fill="#B026FF"/>
+    <circle cx="140" cy="230" r="3" fill="#00F5FF"/>
+    <circle cx="60" cy="270" r="4" fill="#8b5cf6"/>
+    <circle cx="300" cy="90" r="3" fill="#00F5FF"/>
+    <circle cx="1000" cy="55" r="4" fill="#B026FF"/>
+    <circle cx="1120" cy="100" r="5" fill="#00F5FF"/>
+    <circle cx="1080" cy="220" r="3" fill="#8b5cf6"/>
+    <circle cx="1150" cy="270" r="4" fill="#00F5FF"/>
+    <circle cx="950" cy="150" r="3" fill="#B026FF"/>
+  </g>
+  <circle cx="180" cy="120" r="26" fill="url(#node-glow)"/>
+  <circle cx="1120" cy="100" r="26" fill="url(#node-glow)"/>
+
+  <!-- terminal window -->
+  <rect x="230" y="55" width="740" height="210" rx="12" fill="#0d0d1f" stroke="#2a2a4a" stroke-width="1.5"/>
+  <rect x="230" y="55" width="740" height="34" rx="12" fill="#161629"/>
+  <circle cx="254" cy="72" r="6" fill="#ff5f57"/>
+  <circle cx="274" cy="72" r="6" fill="#febc2e"/>
+  <circle cx="294" cy="72" r="6" fill="#28c840"/>
+  <text x="600" y="77" font-family="JetBrains Mono, monospace" font-size="13" fill="#6b6b8f" text-anchor="middle">kavish@rag-engine: ~</text>
+
+  <text x="256" y="118" font-family="JetBrains Mono, monospace" font-size="17" fill="#00F5FF">$ query --who-is kavish</text>
+  <text x="256" y="150" font-family="JetBrains Mono, monospace" font-size="17" fill="#e5e5f0">&gt; retrieving top-k=1 profile match...</text>
+  <text x="256" y="182" font-family="JetBrains Mono, monospace" font-size="20" font-weight="700" fill="url(#glow)">Kavish Gupta — Data Scientist / LLM Engineer</text>
+  <text x="256" y="212" font-family="JetBrains Mono, monospace" font-size="15" fill="#9d9dc4">RAG Systems · Vector Search · Applied ML</text>
+  <rect x="256" y="228" width="10" height="18" fill="#00F5FF"/>
+</svg>
